@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./assets/CSS/reset.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Bookmark landing page</title>
+  <title>Projeto | Bookmark</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -16,7 +17,7 @@
 </head>
 <body>
   <main>
-    <div class="cabecalho">
+    <section class="cabecalho">
       <figure>
         <img src="./assets/images/logo-bookmark.svg" alt="logo-bookmark">
       </figure>
@@ -36,100 +37,163 @@
           </li>
         </ul>
       </nav>
-    </div>
+    </section>
 
-  A Simple Bookmark Manager
+    <section class="sessao1">
+      <div class="box1">
+        <h1 class="box1-title">A Simple Bookmark Manager</h1>
+        <p class="box1-txt">A clean and simple interface to organize your favourite websites. Open a new 
+        browser tab and see your sites load instantly. Try it for free.</p>
+        <div class="box1-botoes">
+          <button class="box1-botao1">Get it on Chrome</button>
+          <button class="box1-botao2">Get it on Firefox</button>
+        </div>
+      </div>
+      <picture class="box1-img">
+        <img src="./assets/images/illustration-hero.svg" class="img-box1" alt="imagem de um tablet">
+      </picture>
+    </section>
 
-  A clean and simple interface to organize your favourite websites. Open a new 
-  browser tab and see your sites load instantly. Try it for free.
+    <section class="sessao2">
+      <div class="box2">
+        <h2 class="box2-title">Features</h2>
+        <p class="box2-txt">Our aim is to make it quick and easy for you to access your favourite websites. 
+        Your bookmarks sync between your devices so you can access them on the go.</p>
+      </div>
+    </section>
 
-  Get it on Chrome
-  Get it on Firefox
+    <section class="sessao3">
+      <nav class="s3-txt">
+          <a href="#">Simple Bookmarking</a>
+          <a href="#">Speedy Searching</a>
+          <a href="#">Easy Sharing</a>
+      </nav>
 
-  Features
+      <div class="sessao3-box1">
+        <picture>
+          <img src="./assets/images/illustration-features-tab-1.svg">
+        </picture>
+        <div class="sessao3-txt1">
+          <h2 class="sessao3-title">Bookmark in one click</h2>
+          <p class="sessao3-txt">Organize your bookmarks however you like. Our simple drag-and-drop interface 
+          gives you complete control over how you manage your favourite sites.</p>
+        </div>
+        <button class="sessao3-btn">More Info</button>
+      </div>
 
-  Our aim is to make it quick and easy for you to access your favourite websites. 
-  Your bookmarks sync between your devices so you can access them on the go.
+      <div class="sessao3-box1">
+        <picture>
+          <img src="./assets/images/illustration-features-tab-2.svg">
+        </picture>
+        <div class="sessao3-txt1">
+          <h2 class="sessao3-title">Intelligent search</h2>
+          <p class="sessao3-txt">Our powerful search feature will help you find saved sites in no time at all. 
+          No need to trawl through all of your bookmarks.</p>
+        </div>
+        <button class="sessao3-btn">More Info</button>
+      </div>
 
-  Simple Bookmarking
-  Speedy Searching
-  Easy Sharing
+      <div class="sessao3-box1">
+        <picture>
+          <img src="./assets/images/illustration-features-tab-3.svg">
+        </picture>
+        <div class="sessao3-txt1">
+          <h2 class="sessao3-title">Share your bookmarks</h2>
+          <p class="sessao3-txt">Easily share your bookmarks and collections with others. Create a shareable 
+          link that you can send at the click of a button.</p>
+        </div>
+        <button class="sessao3-btn">More Info</button>
+      </div>
+    </section>
 
-  Bookmark in one click
+    <section class="sessao-navegadores">
+      <div class="sessao4-box">
+        <h2 class="sessao4-title">Download the extension</h2>
+        <p class="sessao4-txt">We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+        got a favourite you’d like us to prioritize.</p>
+      </div>
 
-  Organize your bookmarks however you like. Our simple drag-and-drop interface 
-  gives you complete control over how you manage your favourite sites.
+      <div class="navegadores">
+        <div class="nave-chrome">
+          <picture class="icone-chrome">
+            <img src="./assets/images/logo-chrome.svg">
+          </picture>
+          <div class="nave-txt">
+            <h3 class="nave-title">Add to Chrome</h3>
+            <p class="nave-sub-title">Minimum version 62</p>
+            <span class="nave-pontos"></span>
+            <button class="nave-btn">Add & Install Extension</button>
+          </div>
+        </div>
 
-  More Info
+        <div class="nave-chrome">
+          <picture class="icone-chrome">
+            <img src="./assets/images/logo-firefox.svg">
+          </picture>
+          <div class="nave-txt">
+            <h3 class="nave-title">Add to Firefox</h3>
+            <p class="nave-sub-title">Minimum version 55</p>
+            <span class="nave-pontos"></span>
+            <button class="nave-btn">Add & Install Extension</button>
+          </div>
+        </div>
 
-  Intelligent search
+        <div class="nave-chrome">
+          <picture class="icone-chrome">
+            <img src="./assets/images/logo-opera.svg">
+          </picture>
+          <div class="nave-txt">
+            <h3 class="nave-title">Add to Opera</h3>
+            <p class="nave-sub-title">Minimum version 46</p>
+            <span class="nave-pontos"></span>
+            <button class="nave-btn">Add & Install Extension</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  Our powerful search feature will help you find saved sites in no time at all. 
-  No need to trawl through all of your bookmarks.
+    <section class="sessao-perguntas">
+      <div class="perg-txt">
+        <h2 class="perg-title">Frequently Asked Questions</h2>
+        <p class="perg-sub-title">Here are some of our FAQs. If you have any other questions you’d like 
+        answered please feel free to email us.</p>
+      </div>
 
-  More Info
+      <div class="box-perg">
+        <span class="traco-box-perg"></span>
+        <h3 class="#">What is Bookmark?</h3>
+        <p class="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+        justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+      </div>
+      <div class="box-perg">
+        <span class="traco-box-perg"></span>
+        <h3 class="#">How can I request a new browser?</h3>
+        <p class="#">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+        Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
+        ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
+        Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+      </div>
+      <div class="box-perg">
+        <span class="traco-box-perg"></span>
+        <h3 class="#">Is there a mobile app?</h3>
+        <p class="#">Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+        urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
+        sollicitudin ex et ultricies bibendum.</p>
+      </div>
+      <div class="box-perg">
+        <span class="traco-box-perg"></span>
+        <h3 class="#">What about other Chromium browsers?</h3>
+        <p class="#">Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+        vitae neque eget nisl gravida pellentesque non ut velit.</p>
+      </div>
+      <div class="perg-btn">
+        <button class="btn-perg">More Info</button>
+      </div>
+    </section>
 
-  Share your bookmarks
-
-  Easily share your bookmarks and collections with others. Create a shareable 
-  link that you can send at the click of a button.
-
-  More Info
-
-  Download the extension
-
-  We’ve got more browsers in the pipeline. Please do let us know if you’ve 
-  got a favourite you’d like us to prioritize.
-
-  Add to Chrome
-  Minimum version 62
-  Add & Install Extension
-
-  Add to Firefox
-  Minimum version 55
-  Add & Install Extension
-
-  Add to Opera
-  Minimum version 46
-  Add & Install Extension
-
-  Frequently Asked Questions
   
-  Here are some of our FAQs. If you have any other questions you’d like 
-  answered please feel free to email us.
 
-  <!-- Question 1 -->
-  What is Bookmark?
-
-  <!-- Answer 1 -->
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
-  justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
-
-  <!-- Question 2 -->
-  How can I request a new browser?
-
-  <!-- Answer 2 -->
-  Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
-  Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
-  ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
-  Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
-
-  <!-- Question 3 -->
-  Is there a mobile app?
-
-  <!-- Answer 3 -->
-  Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
-  urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
-  sollicitudin ex et ultricies bibendum.
-
-  <!-- Question 4 -->
-  What about other Chromium browsers?
-
-  <!-- Answer 4 -->
-  Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
-  vitae neque eget nisl gravida pellentesque non ut velit.
-
-  More Info
+  
 
   35,000+ already joined
 
