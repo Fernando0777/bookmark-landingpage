@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="./assets/CSS/reset.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">  <link rel="stylesheet" href="./assets/CSS/reset.css">
   <link rel="stylesheet" href="./assets/CSS/style.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -17,7 +17,7 @@
   </style>
 </head>
 <body>
-  <main>
+  <main class="corpo">
     <section class="cabecalho">
       <figure>
         <img src="./assets/images/logo-bookmark.svg" alt="logo-bookmark">
@@ -53,6 +53,9 @@
       <picture class="box1-img">
         <img src="./assets/images/illustration-hero.svg" class="img-box1" alt="imagem de um tablet">
       </picture>
+      <div class="sessao1-detalhe">
+        <span></span>
+      </div>
     </section>
 
     <section class="sessao2">
@@ -65,46 +68,56 @@
 
     <section class="sessao3">
       <nav class="s3-txt">
-          <a href="#">Simple Bookmarking</a>
-          <a href="#">Speedy Searching</a>
-          <a href="#">Easy Sharing</a>
+          <a href="#" class="s3-txt-link">Simple Bookmarking</a>
+          <a href="#" class="s3-txt-link">Speedy Searching</a>
+          <a href="#" class="s3-txt-link">Easy Sharing</a>
       </nav>
 
-      <div class="sessao3-box1">
-        <picture>
-          <img src="./assets/images/illustration-features-tab-1.svg">
-        </picture>
-        <div class="sessao3-txt1">
-          <h2 class="sessao3-title">Bookmark in one click</h2>
-          <p class="sessao3-txt">Organize your bookmarks however you like. Our simple drag-and-drop interface 
-          gives you complete control over how you manage your favourite sites.</p>
-        </div>
-        <button class="sessao3-btn">More Info</button>
+      <div class="sessao3-detalhe">
+        <span></span>
+        <span class="s3-detalhe-link1"></span>
+        <span class="s3-detalhe-link2"></span>
+        <span class="s3-detalhe-link3"></span>
       </div>
 
-      <div class="sessao3-box1">
-        <picture>
-          <img src="./assets/images/illustration-features-tab-2.svg">
-        </picture>
-        <div class="sessao3-txt1">
-          <h2 class="sessao3-title">Intelligent search</h2>
-          <p class="sessao3-txt">Our powerful search feature will help you find saved sites in no time at all. 
-          No need to trawl through all of your bookmarks.</p>
+      <div class="sessao3-boxes">
+        <div class="sessao3-box1">
+          <picture class="s3-img">
+            <img src="./assets/images/illustration-features-tab-1.svg" class="sessao3-img">
+          </picture>
+          <div class="sessao3-txt1">
+            <h2 class="sessao3-title">Bookmark in one click</h2>
+            <p class="sessao3-txt">Organize your bookmarks however you like. Our simple drag-and-drop interface 
+            gives you complete control over how you manage your favourite sites.</p>
+            <button class="sessao3-btn">More Info</button>
+          </div>
         </div>
-        <button class="sessao3-btn">More Info</button>
-      </div>
 
-      <div class="sessao3-box1">
-        <picture>
-          <img src="./assets/images/illustration-features-tab-3.svg">
-        </picture>
-        <div class="sessao3-txt1">
-          <h2 class="sessao3-title">Share your bookmarks</h2>
-          <p class="sessao3-txt">Easily share your bookmarks and collections with others. Create a shareable 
-          link that you can send at the click of a button.</p>
+        <div class="sessao3-box2">
+          <picture class="s3-img">
+            <img src="./assets/images/illustration-features-tab-2.svg" class="sessao3-img">
+          </picture>
+          <div class="sessao3-txt2">
+            <h2 class="sessao3-title">Intelligent search</h2>
+            <p class="sessao3-txt">Our powerful search feature will help you find saved sites in no time at all. 
+            No need to trawl through all of your bookmarks.</p>
+            <button class="sessao3-btn">More Info</button>
+          </div>
         </div>
-        <button class="sessao3-btn">More Info</button>
+
+        <div class="sessao3-box3">
+          <picture class="s3-img">
+            <img src="./assets/images/illustration-features-tab-3.svg" class="sessao3-img">
+          </picture>
+          <div class="sessao3-txt3">
+            <h2 class="sessao3-title">Share your bookmarks</h2>
+            <p class="sessao3-txt">Easily share your bookmarks and collections with others. Create a shareable 
+            link that you can send at the click of a button.</p>
+            <button class="sessao3-btn">More Info</button>
+            </div>
+        </div>
       </div>
+      <span class="sessao3-detalhe-faixa"></span>
     </section>
 
     <section class="sessao-navegadores">
