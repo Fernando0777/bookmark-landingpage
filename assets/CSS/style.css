@@ -284,3 +284,170 @@
 .sessao-navegadores{
     margin-top: 100px;
 }
+
+.sessao4-box{
+    text-align: center;
+}
+
+.sessao4-title{
+    font-family: Rubik;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.sessao4-txt{
+    font-family: Rubik;
+    color: #a3a1a1;
+    line-height: 23px;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-right: 360px;
+    padding-left: 360px;
+}
+
+.navegadores{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-bottom: 100px;
+}
+
+.box-navegadores{
+    padding: 25px 25px 21px 25px;
+    text-align: center;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 1px 6px -2px rgb(173, 173, 241);
+    border: 1px solid transparent;
+}
+
+.box-firefox{
+    margin-top: 40px;
+}
+
+.box-opera{
+    margin-top: 80px;
+}
+
+.nave-title{
+    font-family: 'Rubik';
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.nave-sub-title{
+    font-family: 'Rubik';
+    font-size: 12px;
+    color: #a3a1a1;
+}
+
+.nave-btn{
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-family: Rubik;
+    font-family: Rubik;
+    font-size: 11px;
+    font-weight: 500;
+    background: rgb(60, 60, 214);
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.nave-btn:hover{
+    background: #fff;
+    color: rgb(60, 60, 214);
+    border: 1px solid rgb(60, 60, 214);
+}
+
+.sessao-perguntas{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.perg-seta{
+    display: flex;
+}
+
+.seta{
+    margin-left: auto;
+}
+
+.perg-txt{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.perg-title{
+    font-family: 'Rubik';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.perg-sub-title{
+    font-family: 'Rubik';
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    color: #a3a1a1;
+}
+
+.pergunta{
+    font-family: 'Rubik';
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.pergunta:hover{
+    color: rgb(255, 84, 84);
+}
+
+.resposta{
+    font-family: 'Rubik';
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: 25px;
+    color: #a3a1a1;
+}
+
+.resposta{
+    display: none;
+}
+
+.perg-btn{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-perg{
+    padding: 7px 20px;
+    background: rgb(60, 60, 214);
+    font-family: Rubik;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.btn-perg:hover{
+    background: #fff;
+    border: 1px solid rgb(60, 60, 214);
+    color: rgb(60, 60, 214);
+}
+
+.sessao-contato{
+    text-align: center;
+    font-family: Rubik;
+    background: rgb(60, 60, 214);
+    margin-top: 70px;
+}
+
+.info1{
+    margin-top: 50px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
