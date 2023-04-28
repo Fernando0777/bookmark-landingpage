@@ -114,6 +114,7 @@
 
 .box1-img{
     z-index: 100;
+    text-align: right;
 }
 
 .img-box1{
@@ -294,6 +295,7 @@
     font-family: Rubik;
     font-size: 25px;
     font-weight: 500;
+    margin-bottom: 30px;
 }
 
 .sessao4-txt{
@@ -303,8 +305,8 @@
     font-size: 15px;
     margin-top: 25px;
     margin-bottom: 25px;
-    padding-right: 360px;
-    padding-left: 360px;
+    margin: 0 auto;
+    max-width: 400px;
 }
 
 .navegadores{
@@ -312,6 +314,7 @@
     justify-content: space-evenly;
     align-items: flex-start;
     margin-bottom: 100px;
+    margin-top: 65px;
 }
 
 .box-navegadores{
@@ -364,8 +367,9 @@
 }
 
 .sessao-perguntas{
-    margin-left: 400px;
-    margin-right: 400px;
+    display: block;
+    margin: 0 auto;
+    max-width: 410px;
 }
 
 .perg-seta{
@@ -454,6 +458,7 @@
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #fff;
+    margin-bottom: 30px;
 }
 
 .info2{
@@ -462,8 +467,8 @@
     color: #fff;
     margin-top: 30px;
     font-size: 23px;
-    padding-right: 427px;
-    padding-left: 427px;
+    max-width: 280px;
+    margin: 0 auto;
     margin-bottom: 25px;
 }
 
