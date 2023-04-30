@@ -54,7 +54,6 @@
 .sessao1{
     display: flex;
     margin-bottom: 70px;
-    position: relative;
 }
 
 .box1{
@@ -125,7 +124,7 @@
 .sessao1-detalhe{
     position: absolute;
     right: 0;
-    bottom: 0px;
+    bottom: 80px;
     width: 40%;
     height: 220px;
     background-color: rgb(60, 60, 214);

@@ -1,0 +1,42 @@
+@media screen and (max-width: 975px) {
+    .box1{
+        width: 80%;
+    }
+
+    .sessao1-detalhe{
+        width: 30%;
+        bottom: 145px;
+    }
+}
+
+@media screen and (max-width: 885px){
+    .box1{
+        width: 100%;
+    }
+
+    .box1-botoes{
+        display: grid;
+        justify-content: center;
+    }
+
+    .box1-botao1{
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .img-box1{
+        width: 100%;
+    }
+
+    .s3-txt{
+        width: 100%;
+    }
+
+    .sessao3-detalhes{
+        width: 100%;
+    }
+
+    .s3-detalhe-link1{
+        width: 30%;
+    }
+}
