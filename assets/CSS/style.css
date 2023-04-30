@@ -168,6 +168,10 @@
     color: rgb(255, 84, 84);
 }
 
+.txt-detalhe-1{
+    display: flex;
+}
+
 .s3-detalhe-txt{
     width: 50px;
     height: 2px;
@@ -186,30 +190,33 @@
 
 .s3-detalhe-link1{
     position: absolute;
-    width: 17%;
+    width: 15%;
     height: 4px;
     background: rgb(255, 84, 84);
-    margin-top: -3px;
+    margin-top: 37px;
+    margin-left: -20px;
 }
 
 .s3-detalhe-link2{
     display: none;
     position: absolute;
-    width: 11%;
+    display: flex;
+    width: 12%;
     height: 4px;
     background: rgb(255, 84, 84);
-    margin-top: -3px;
-    margin-left: 240px;
+    margin-top: 21px;
+    margin-left: -13px;
 }
 
 .s3-detalhe-link3{
     display: none;
     position: absolute;
-    width: 11%;
+    display: flex;
+    width: 9%;
     height: 4px;
     background: rgb(255, 84, 84);
-    margin-top: -3px;
-    margin-left: 422px;
+    margin-top: 21px;
+    margin-left: 0;
 }
 
 .sessao3-box1{
