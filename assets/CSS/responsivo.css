@@ -69,6 +69,68 @@
     }
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 780px){
+
+    .menu{
+        display: none;
+    }
+
+    .menu-burguer{
+        display: grid;
+        position: absolute;
+    }
+    
+    .burguer{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 40px;
+    }
+
+    .botoes-burguer{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin-top: 45px;
+    }
+
+    .botao-hamb{
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .detalhe-burguer{
+        width: 250px;
+        height: 0,5px;
+        background: #fff;
+        margin-bottom: 15px;
+        opacity: 50%;
+    }
+
+    .fecha-x{
+        position: absolute;
+        font-size: 40px;
+        text-decoration: none;
+        color: #fff;
+        right: 30px;
+    }
+
+    .sessao1{
+        display: block;
+        margin-bottom: 530px;
+    }
+
+    .box1-img{
+        position: absolute;
+        margin-top: 25px;
+    }
+
+    .sessao1-detalhe{
+        bottom: 210px;
+        width: 57%;
+    }
     
 }

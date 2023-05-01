@@ -16,11 +16,29 @@
     position: absolute;
     right: 70px;
     list-style: none;
+    text-decoration: none;
 }
 
 .menu ul{
     display: flex;
     gap: 50px;
+}
+
+.burguer{
+    display: none;
+}
+
+.menu-burguer{
+    width: 50%;
+    height: 360px;
+    position: absolute;
+    z-index: 200;
+    right: 0;
+    background: rgb(60, 60, 214);
+    overflow-x: hidden;
+    transition: all 0.5s;
+    cursor: pointer;
+    display: none;
 }
 
 .botao-menu{
@@ -59,13 +77,13 @@
 .box1{
     width: 50%;
     margin: auto;
+    max-width: 78%;
 }
 
 .box1-title{
     font-family: Rubik;
     font-size: 35px;
     font-weight: 500;
-    max-width: 63%;
 }
 
 .box1-txt{
@@ -75,7 +93,6 @@
     line-height: 25px;
     margin-top: 50px;
     margin-bottom: 50px;
-    max-width: 78%;
 }
 
 .box1-botao1{
